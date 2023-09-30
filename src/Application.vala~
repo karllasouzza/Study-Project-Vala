@@ -16,6 +16,7 @@ public class MyApp : Gtk.Application {
     }
     
     public static int main (string[] args){
-            return new MyApp ().run (args);
+        new  MyApp ().run (args);
+           return 0;
     }
 }
